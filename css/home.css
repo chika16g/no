@@ -1,0 +1,579 @@
+@charset "UTF-8";
+
+/* ====================================================
+header 
+======================================================= */
+
+header {
+  background-image: url(../img/home.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
+
+.header-wrapper__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 片山組topタイトル */
+.header-wrapper__flex__ttl {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.header-wrapper__flex__ttl img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.header-wrapper__flex__ttl h1 {
+  font-size: 1.25rem;
+  margin-left: 8px;
+}
+
+/* 片山組topメニュー */
+.header-wrapper__flex__nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper__flex__nav__list__item a {
+  display: block;
+  padding: 16px 0 16px 20px;
+}
+
+/* 明日を創る 未来を創る */
+.header-wrapper {
+  height: 100vh;
+  position: relative;
+}
+
+.header-wrapper__catchcopy {
+  font-size: 5rem;
+}
+
+.header-wrapper__catchcopy__left {
+  position: absolute;
+  top: 20%;
+}
+
+.header-wrapper__catchcopy__right {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+/* ====================================================
+business
+======================================================= */
+
+#business {
+  padding: 5% 0;
+  background-color: #fff;
+}
+
+.business-wrapper {
+  position: relative; /* moreにかかっている */
+}
+
+.business-wrapper__flex {
+  display: flex;
+}
+
+.business-wrapper__flex__left {
+  position: relative;
+  background-color: #eef2ed;
+  margin-right: 3%;
+  padding: 5% 15% 0% 5%;
+  bottom: 0.1rem;
+  height: 8%;
+}
+
+.business-wrapper__flex__left__ttl {
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+
+.business-wrapper__flex__right {
+  margin: 5% 5% 0% -15%;
+  z-index: 1;
+}
+
+.business-wrapper__flex__left__undertxt {
+  margin-left: 55%; /* テキストの位置調整 */
+  position: relative;
+  bottom: -5px;
+  font-family: serif;
+  font-size: 2.5rem;
+  letter-spacing: 30px;
+  color: #999999;
+  z-index: 2;
+}
+
+.business-wrapper__flex__left__sub-ttl {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.business-wrapper__flex__left__txt {
+  margin-bottom: 10%;
+}
+
+.business-wrapper__more {
+  background-color: #cae8d8;
+  width: 150px;
+  height: 150px;
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 150px;
+  text-align: center;
+  position: absolute;
+  bottom: -25px;
+  left: 5%;
+}
+
+/* ====================================================
+works
+======================================================= */
+
+#works {
+  padding: 5% 0;
+  background-color: #4a4a4a;
+}
+
+.works-wrapper {
+  position: relative; /* moreにかかっている */
+}
+
+.works-wrapper__flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.works-wrapper__flex__right {
+  position: relative;
+  background-color: #eef2ed;
+  margin-right: 3%;
+  padding: 5% 5% 0% 20%; /* 左右逆のとき要確認 */
+  bottom: 0.1rem;
+  height: 8%;
+}
+
+.works-wrapper__flex__right__ttl {
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+
+.works-wrapper__flex__left {
+  margin: 5% -15% 0% 5%; /* 左右逆のとき要確認 */
+  z-index: 1;
+}
+
+.works-wrapper__flex__right__undertxt {
+  margin-left: -10%; /* テキストの位置調整 */
+  position: relative;
+  bottom: -5px;
+  font-family: serif;
+  font-size: 2.5rem;
+  letter-spacing: 30px;
+  color: #999999;
+  z-index: 2;
+}
+
+.works-wrapper__flex__right__sub-ttl {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.works-wrapper__flex__right__txt {
+  margin-bottom: 10%;
+}
+
+.works-wrapper__more {
+  background-color: #cae8d8;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 150px;
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: -15px;
+  left: 77%;
+  z-index: 2;
+}
+
+/* ====================================================
+company
+======================================================= */
+
+#company {
+  padding: 5% 0;
+  background-color: #fff;
+}
+
+.company-wrapper {
+  position: relative; /* moreにかかっている */
+}
+
+.company-wrapper__flex {
+  display: flex;
+}
+
+.company-wrapper__flex__left {
+  position: relative;
+  background-color: #eef2ed;
+  margin-right: 3%;
+  padding: 5% 15% 0% 5%;
+  bottom: 0.1rem;
+  height: 8%;
+}
+
+.company-wrapper__flex__left__ttl {
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+
+.company-wrapper__flex__right {
+  margin: 5% 5% 0% -15%;
+  z-index: 1;
+}
+
+.company-wrapper__flex__left__undertxt {
+  margin-left: 55%; /* テキストの位置調整 */
+  position: relative;
+  bottom: -5px;
+  font-family: serif;
+  font-size: 2.5rem;
+  letter-spacing: 30px;
+  color: #999999;
+  z-index: 2;
+}
+
+.company-wrapper__flex__left__sub-ttl {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.company-wrapper__flex__left__txt {
+  margin-bottom: 10%;
+}
+
+.company-wrapper__more {
+  background-color: #cae8d8;
+  width: 150px;
+  height: 150px;
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 150px;
+  text-align: center;
+  position: absolute;
+  bottom: -50px;
+  left: 5%;
+}
+
+/* ====================================================
+recruit
+======================================================= */
+
+#recruit {
+  padding: 5% 0;
+  background-color: #4a4a4a;
+}
+
+.recruit-wrapper {
+  position: relative; /* moreにかかっている */
+}
+
+.recruit-wrapper__flex {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.recruit-wrapper__flex__right {
+  position: relative;
+  background-color: #eef2ed;
+  margin-right: 3%;
+  padding: 5% 5% 0% 20%; /* 左右逆のとき要確認 */
+  bottom: 0.1rem;
+  height: 8%;
+}
+
+.recruit-wrapper__flex__right__ttl {
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+
+.recruit-wrapper__flex__left {
+  margin: 5% -15% 0% 5%; /* 左右逆のとき要確認 */
+  z-index: 1;
+}
+
+.recruit-wrapper__flex__right__undertxt {
+  margin-left: -45%; /* テキストの位置調整 */
+  position: relative;
+  bottom: -6px;
+  font-family: serif;
+  font-size: 2.5rem;
+  letter-spacing: 30px;
+  color: #999999;
+  z-index: 2;
+}
+
+.recruit-wrapper__flex__right__sub-ttl {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.recruit-wrapper__flex__right__txt {
+  margin-bottom: 10%;
+}
+
+.recruit-wrapper__more {
+  background-color: #cae8d8;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 150px;
+  text-align: center;
+  font-size: 1.5rem;
+  position: absolute;
+  bottom: -40px;
+  left: 77%;
+  z-index: 2;
+}
+
+/* ====================================================
+map
+======================================================= */
+
+#map {
+  padding: 5% 0;
+  background-color: #fff;
+}
+
+.map-wrapper__flex {
+  display: flex;
+}
+
+/* ①ここが悪さしてる？heightが縮まらない */
+.map-wrapper__flex__left {
+  position: relative;
+  background-color: #eef2ed;
+  margin-right: 3%;
+  width: 600px;
+  height: 300px;
+  padding: 5% 15% 0% 5%;
+  bottom: 0.1rem;
+  height: 1%;
+}
+
+.map-wrapper__flex__left__ttl {
+  font-size: 3.5rem;
+  margin-bottom: 5%;
+}
+
+.map-wrapper__flex__right {
+  margin: 5% 5% 0% -15%;
+  z-index: 1;
+}
+
+.map-wrapper__flex__left__undertxt {
+  margin-left: 55%; /* テキストの位置調整 */
+  position: relative;
+  bottom: -5px;
+  font-family: serif;
+  font-size: 2.5rem;
+  letter-spacing: 30px;
+  color: #999999;
+  z-index: 2;
+}
+
+.map-wrapper__flex__left__sub-ttl {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+
+.map-wrapper__flex__left__txt {
+  margin-bottom: 10%;
+}
+
+.map-wrapper__flex__left__list__item span {
+  display: block;
+  margin-bottom: 1%;
+}
+
+.map-wrapper__flex__left__list__item {
+  margin-bottom: 5%;
+}
+
+/* ====================================================
+contact
+======================================================= */
+
+#contact {
+  padding: 5% 0 10% 0;
+  background-color: #eef2ed;
+}
+
+.contact-wrapper__ttl {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 8%;
+}
+
+/* ②space-between が効いていない？ */
+.contact-wrapper__flex {
+  background-color: rgb(237, 225, 225);
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-wrapper__flex__left {
+  width: 330px;
+  height: 200px;
+  padding: 5%;
+  background-color: #fff;
+}
+
+.contact-wrapper__flex__left h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 20%;
+}
+
+.contact-wrapper__flex__left__flex__phone{
+  margin-left: 2%;
+}
+
+.contact-wrapper__flex__left__flex__phone__number{
+  font-size: 2rem;
+  margin-bottom: 3%;
+}
+
+.contact-wrapper__flex__left__flex__phone__small{
+  font-size: 0.95rem;
+}
+
+.contact-wrapper__flex__left__flex{
+  display: flex;
+  align-items: center;
+}
+
+.contact-wrapper__flex__left__flex img {
+  width: 70px;
+  height: 70px;
+}
+
+.contact-wrapper__flex__right {
+  width: 330px;
+  height: 200px;
+  padding: 5%;
+  background-color: #fff;
+}
+
+.contact-wrapper__flex__right h3 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.contact-wrapper__flex__right__mail{
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  background-color: #cae8d8;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+/* ③文字を大きくしたいが、中の文字を大きくすると段落ちしてしまう。 */
+.contact-wrapper__flex__right__mail__txt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* ====================================================
+footer
+======================================================= */
+
+#footer{
+  background-color: #4a4a4a;
+  height: 250px;
+  color: white;
+}
+
+.footer-wrapper__flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3%;
+  margin-bottom: 10%;
+}
+
+/* 片山組topタイトル */
+.footer-wrapper__flex__ttl {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.footer-wrapper__flex__ttl img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.footer-wrapper__flex__ttl h1 {
+  font-size: 1.25rem;
+  margin-left: 8px;
+}
+
+/* 片山組topメニュー */
+.footer-wrapper__flex__nav__list {
+  display: flex;
+  align-items: center;
+}
+
+/* ④ホームだけ下がってしまう・・？ */
+.footer-wrapper__flex__nav__list__item a {
+  display: block;
+  padding: 0px 0px 16px 16px;
+}
+
+
+/* ⑤footerからなぜかはみ出てしまう。 */
+.footer-wrapper__underflex{
+  background-color: rgb(231, 216, 216);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-wrapper__underflex__top {
+  color: #4a4a4a;
+  background-color: #EEF2ED;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border-radius: 50%;
+  line-height: 100px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+
+
+
+
